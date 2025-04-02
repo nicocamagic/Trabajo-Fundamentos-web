@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Atributos CSS</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Conceptos Basicos de CSS y JS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#css">CSS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#js">JavaScript</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tabla-css">Tabla CSS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <section id="css">
+            <center>
+            <h2>¿Qué es CSS?</h2>
+            <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para diseñar y dar estilo a las páginas web.</p>
+
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="IMG/img1.jpg" alt="Logo de CSS" width="100"></a>
+            </center>
+        </section>
+        
+        <section id="js" class="mt-4">
+            <center>
+            <h2>¿Qué es JavaScript?</h2>
+            <p>JavaScript es un lenguaje de programación que permite implementar funcionalidades interactivas en las páginas web.</p>
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img src="IMG/img2.jpg" alt="Logo de JavaScript" width="100"></a>
+            </center>
+        </section>
+
+        <section id="tabla-css" class="mt-4">
+            <h2>Tabla de Atributos CSS</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Nombre del Atributo</th>
+                            <th>Descripción</th>
+                            <th>Valores Posibles</th>
+                            <th>Ejemplo de Uso</th>
+                            <th>Imagen</th>
+                            <th>Fuente</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>font-size</td>
+                            <td>Define el tamaño de la fuente.</td>
+                            <td>10px, 1em, 100%</td>
+                            <td><code>p { font-size: 16px; }</code></td>
+                            <td><img src="ruta_a_la_imagen/font-size.png" alt="Ejemplo" width="100"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>border-radius</td>
+                            <td>Define esquinas redondeadas para un elemento.</td>
+                            <td>5px, 50%</td>
+                            <td><code>div { border-radius: 10px; }</code></td>
+                            <td><img src="ruta_a_la_imagen/border-radius.png" alt="Ejemplo" width="100"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>display</td>
+                            <td>Define cómo se muestra un elemento.</td>
+                            <td>block, inline, flex</td>
+                            <td><code>div { display: block; }</code></td>
+                            <td><img src="ruta_a_la_imagen/display.png" alt="Ejemplo" width="100"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>flexbox</td>
+                            <td>Sistema de diseño para disposición de elementos en una sola dirección.</td>
+                            <td>flex-start, center, space-between</td>
+                            <td>div { display: flex; }</td>
+                            <td><img src="ruta_a_la_imagen/flexbox.png" alt="Ejemplo de Flexbox"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>position</td>
+                            <td>Especifica el tipo de posicionamiento de un elemento.</td>
+                            <td>static, relative, absolute, fixed</td>
+                            <td>div { position: relative; }</td>
+                            <td><img src="ruta_a_la_imagen/position.png" alt="Ejemplo de Position"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>box-shadow</td>
+                            <td>Aplica una sombra a un elemento.</td>
+                            <td>h-shadow, v-shadow, blur, spread, color</td>
+                            <td>div { box-shadow: 2px 2px 5px #000; }</td>
+                            <td><img src="ruta_a_la_imagen/box-shadow.png" alt="Ejemplo de Box Shadow"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>overflow</td>
+                            <td>Controla el comportamiento del contenido desbordante.</td>
+                            <td>visible, hidden, scroll, auto</td>
+                            <td>div { overflow: hidden; }</td>
+                            <td><img src="ruta_a_la_imagen/overflow.png" alt="Ejemplo de Overflow"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>z-index</td>
+                            <td>Controla el orden de apilamiento de los elementos.</td>
+                            <td>número entero</td>
+                            <td>div { z-index: 1; }</td>
+                            <td><img src="ruta_a_la_imagen/z-index.png" alt="Ejemplo de Z-Index"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>opacity</td>
+                            <td>Controla la opacidad de un elemento.</td>
+                            <td>0 (completamente transparente) a 1 (completamente opaco)</td>
+                            <td>div { opacity: 0.5; }</td>
+                            <td><img src="ruta_a_la_imagen/opacity.png" alt="Ejemplo de Opacity"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>margin</td>
+                            <td>Define el espacio exterior de un elemento.</td>
+                            <td>10px, 1em, auto</td>
+                            <td>div { margin: 20px; }</td>
+                            <td><img src="ruta_a_la_imagen/margin.png" alt="Ejemplo de Margin"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                        <tr>
+                            <td>padding</td>
+                            <td>Define el espacio interior de un elemento.</td>
+                            <td>10px, 1em, auto</td>
+                            <td>div { padding: 15px; }</td>
+                            <td><img src="ruta_a_la_imagen/padding.png" alt="Ejemplo de Padding"></td>
+                            <td>MDN Web Docs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
